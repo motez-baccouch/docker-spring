@@ -3,12 +3,12 @@ version: '3'
 services:
   springbootapp:
     image: spring-mongo:latest
-    container_name: my-springboot-app
+    container_name: my-springboot-application
     ports:
       - "8081:8081"
 
   mongodb:
     image: mongo:latest
-    container_name: my-mongodb
+    container_name: my-mongodatabase
     ports:
       - "28000:27017"
