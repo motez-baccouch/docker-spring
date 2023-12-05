@@ -4,11 +4,13 @@ services:
   springbootapp:
     image: spring-mongo:latest
     container_name: my-springboot-application
+    restart: unless-stopped
     ports:
       - "8081:8081"
 
   mongodb:
     image: mongo:latest
     container_name: my-mongodatabase
+    restart: unless-stopped
     ports:
       - "28000:27017"
