@@ -7,6 +7,6 @@ resource "aws_instance" "TrinoDaninoInstance" {
   key_name      = "shunter_ubuntu_key"  # Le nom de la clé telle qu'enregistrée dans AWS EC2
 
   tags = {
-    Name = "MonInstanceEC2FromJenkins"
+    Name = "TrinoDaninoInstance"
   }
 }
