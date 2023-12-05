@@ -1,6 +1,7 @@
-package com.mycompany.obitemservice.controller;
+package com.mycompany.obitemservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mycompany.obitemservice.controller.ItemCategoryController;
 import com.mycompany.obitemservice.model.ItemCategoryModel;
 import com.mycompany.obitemservice.repository.ItemCategoryRepository;
 import com.mycompany.obitemservice.repository.ItemRepository;

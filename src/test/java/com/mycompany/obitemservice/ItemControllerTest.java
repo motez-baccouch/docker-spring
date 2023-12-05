@@ -1,6 +1,7 @@
-package com.mycompany.obitemservice.controller;
+package com.mycompany.obitemservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mycompany.obitemservice.controller.ItemController;
 import com.mycompany.obitemservice.model.ItemModel;
 import com.mycompany.obitemservice.repository.ItemRepository;
 import org.junit.jupiter.api.BeforeEach;
