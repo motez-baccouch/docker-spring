@@ -17,6 +17,6 @@ public class IntegrationTest {
 
     @Test
     public void shouldReturnDefaultMessage() throws Exception {
-        //this.mockMvc.perform(get("/api/v1/items")).andExpect(status().isOk());
+        this.mockMvc.perform(get("/api/v1/items")).andExpect(status().isOk());
     }
 }
