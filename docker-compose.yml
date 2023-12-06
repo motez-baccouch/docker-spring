@@ -16,9 +16,8 @@ services:
       - "28000:27017"
 
   prometheus:
-    image: prom/prometheus:v2.44.0
+    image: prom/prometheus:latest
     container_name: prometheus
-    network_mode: "bridge"
     ports:
       - "9090:9090"
     volumes:
