@@ -21,7 +21,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./var/jenkins_home/workspace/devops-automation/Monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./Monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
 
   grafana:
     image: grafana/grafana:9.5.2
